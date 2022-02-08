@@ -1,0 +1,26 @@
+li{
+    background-color: skyblue;
+}
+
+#important{
+    background-color: orange;
+}
+
+/* the more specific will take precedence */
+
+li#important{
+    background-color: red;
+}
+
+.goodToHave{
+    background-color: aqua;
+}
+/* child selector */
+#content p{
+    border: 1px black solid;
+}
+
+/* direct child selector */
+article > p:first-child {
+    font-size: 32px;
+}
