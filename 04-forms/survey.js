@@ -17,6 +17,23 @@ btn.addEventListener('click', function(){
         }
     }
 
-    console.log(name, email, rating)
+    //select all checkboxes
+    // let selectedCheckboxes = document.querySelectorAll('.hear-about:checked');
+    // let hearAbout = [];
+    // for(let checkbox of selectedCheckboxes){
+    //     hearAbout.push(checkbox.value);
+    // }
+
+    //use linear search to search find all selected checkboxes
+    let allCheckboxes = document.getElementsByClassName('hear-about');
+    let hearAbout = [];
+
+    for(let checkbox of allCheckboxes){
+        if(checkbox.checked == true){
+            hearAbout.push(checkbox.value);
+        }
+    }
+
+    console.log(name, email, rating, hearAbout)
     
 })
