@@ -1,29 +1,31 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- use container before starting bootstrap -->
     <!-- we use form tag if we need to submit info to server -->
     <div class="container">
         <div class="alert alert-danger" id="errors" style="display:none;"></div>
         <div>
             <label for="">Full Name</label>
-            <input type="text" class="form-control" id='name'/>
+            <input type="text" class="form-control" id='name' />
         </div>
 
         <div>
             <label for="">Email</label>
-            <input type="text" class="form-control" id='email'/>
+            <input type="text" class="form-control" id='email' />
         </div>
 
         <div>
@@ -55,36 +57,31 @@
         <div>
             <label for="">How did u hear about us</label>
             <div class="form-check">
-                <input class="from-checked-input hear-about" 
-                        type="checkbox"
-                        value="tv">
+                <input class="from-checked-input hear-about" type="checkbox" value="tv">
                 <label for="" class="form-check-label">TV</label>
-    
-                <input class="from-checked-input hear-about" 
-                        type="checkbox"
-                        value="newsletter">
-                        <label for="" class="form-check-label">newsletter</label>
-    
-                <input class="from-checked-input hear-about" 
-                        type="checkbox"
-                        value="wordofmouth">
-                    <label for="" class="form-check-label">wordofmouth</label>
-    
-                
-                        <input class="from-checked-input hear-about" 
-                        type="checkbox"
-                        value="salesperson">
-                    <label for="" class="form-check-label">salesperson</label>
+
+                <input class="from-checked-input hear-about" type="checkbox" value="newsletter">
+                <label for="" class="form-check-label">newsletter</label>
+
+                <input class="from-checked-input hear-about" type="checkbox" value="wordofmouth">
+                <label for="" class="form-check-label">wordofmouth</label>
+
+
+                <input class="from-checked-input hear-about" type="checkbox" value="salesperson">
+                <label for="" class="form-check-label">salesperson</label>
             </div>
         </div>
-       
+
         <button id="btn" class="btn btn-primary mt-3">Submit</button>
     </div>
 
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="survey.js"></script>
     <script src="validate.js"></script>
-  </body>
+</body>
+
 </html>

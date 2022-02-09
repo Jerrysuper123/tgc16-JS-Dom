@@ -1,0 +1,28 @@
+[
+    {
+        "sku": "AMC_Hammer",
+        "name": "hammer",
+        "price": 30.6
+
+    },
+    {
+        "sku": "nails",
+        "name": "nails",
+        "price": 40
+
+    },
+    {
+        "sku": "screw111",
+        "name": "screwDriver",
+        "price": 20
+
+    },
+    {
+        "sku": "1111",
+        "name": "acne",
+        "price": 40
+
+    }
+
+   
+]
